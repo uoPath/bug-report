@@ -2,11 +2,11 @@
 browser-chrome:
   - '/(Chrome|Chromium)/i'
 browser-edge:
-  - '/((Microsoft|MS) ?)?Edge/i'
+  - '/((Microsoft|MS) ?)?\bEdge\b/i'
 browser-firefox:
   - '/Firefox/i'
 browser-opera:
-  - '/Opera/i'
+  - '/\bOpera\b/i'
 browser-safari:
   - '/Safari/i'
 
