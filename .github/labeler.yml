@@ -1,0 +1,23 @@
+# Browser
+browser-chrome:
+  - '/(Chrome|Chromium)/i'
+browser-edge:
+  - '/((Microsoft|MS) ?)?Edge/i'
+browser-firefox:
+  - '/Firefox/i'
+browser-opera:
+  - '/Opera/i'
+browser-safari:
+  - '/Safari/i'
+
+# OS
+os-android:
+  - '/Android/i'
+os-ios:
+  - '/(iOS|iPad ?OS)/i'
+os-linux:
+  - '/Linux/i'
+os-macos:
+  - '/macOS/i'
+os-windows:
+  - '/(Windows|Win ?(7|8|10|11))/i'
