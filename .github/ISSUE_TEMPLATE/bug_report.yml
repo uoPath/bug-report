@@ -1,0 +1,76 @@
+name: Bug Report
+description: File a bug report
+title: '[Bug]: '
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |-
+        Hi! 👋
+
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: If applicable, add screenshots to help explain your problem.
+      placeholder: Tell us what you see!
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What did you expect to happen?
+      placeholder: The expected behavior should be...
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What were you doing before the issue occurred?
+      description: Steps to reproduce the behavior.
+      value: |-
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Did you see any error messages?
+      description: >-
+        If you see a red error bar at the bottom of the screen, hit the F12 key
+        and copy/paste the error messages you see in this section. 
+      placeholder: Screenshots work too!
+      render: markdown
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: Add any other context about the problem here.
+  - type: markdown
+    attributes:
+      value: '---'
+  - type: markdown
+    attributes:
+      value: 'Some additional detail to help us reproduce the issue:'
+  - type: input
+    attributes:
+      label: Operating System
+      description: Which operating system were you using when you encountered this bug?
+      placeholder: Windows, macOS, iOS, Android, Arch Linux...
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Browser
+      description: What browsers are you seeing the problem on?
+      placeholder: Chrome, Firefox, Safari, Edge...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: >-
+        Thanks again for taking the time to fill out this bug report and help us
+        improve uoPath.me!
