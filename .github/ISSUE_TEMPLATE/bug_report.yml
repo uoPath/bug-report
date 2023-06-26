@@ -15,14 +15,12 @@ body:
       label: What happened?
       description: If applicable, add screenshots to help explain your problem.
       placeholder: Tell us what you see!
-      render: markdown
     validations:
       required: true
   - type: textarea
     attributes:
       label: What did you expect to happen?
       placeholder: The expected behavior should be...
-      render: markdown
     validations:
       required: true
   - type: textarea
@@ -34,7 +32,6 @@ body:
         2. Click on '...'
         3. Scroll down to '...'
         4. See error
-      render: markdown
     validations:
       required: true
   - type: textarea
@@ -44,7 +41,6 @@ body:
         If you see a red error bar at the bottom of the screen, hit the F12 key
         and copy/paste the error messages you see in this section. 
       placeholder: Screenshots work too!
-      render: markdown
   - type: textarea
     attributes:
       label: Anything else?
